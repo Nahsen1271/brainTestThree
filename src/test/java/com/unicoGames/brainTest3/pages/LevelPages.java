@@ -6,14 +6,12 @@ import com.alttester.Commands.FindObject.AltFindObjectsParams;
 import com.alttester.Commands.FindObject.AltWaitForObjectsParams;
 import com.unicoGames.brainTest3.tests.TestBase;
 import com.unicoGames.brainTest3.utilities.DriverManager;
-import io.cucumber.java.ht.Le;
 
 
-public class LevelPages extends TestBase {
-    AltDriver altDriver;
-//    public LevelPages(){
-//        this.altDriver = new DriverManager().getAltDriver();
-//    }
+
+public class LevelPages extends BasePage{
+
+   // AltDriver altDriver;
     public AltObject firstPopup(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/TutorialPopUp/Panel/Window/NoButton/Text (TMP) (1)").
                 isEnabled(true).build();

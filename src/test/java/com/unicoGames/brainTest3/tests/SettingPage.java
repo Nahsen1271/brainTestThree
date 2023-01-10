@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class SettingPage extends TestBase{
 
-    AltDriver altDriver;
+//    AltDriver altDriver;
     LevelPages levelPages;
 
 
@@ -44,15 +44,15 @@ public class SettingPage extends TestBase{
 //        firstPopup().click();Thread.sleep(1000);
 //        tapToPlay().click();
 //        Thread.sleep(9000);
-//        altDriver.swipe(new AltSwipeParams.Builder(theRock().getScreenPosition(),theRockTrig().getScreenPosition()).withDuration(2).build());
-//        Thread.sleep(3000);
-//        altDriver.swipe(new AltSwipeParams.Builder(alxyRaycastTarget().getScreenPosition(),alyxTrig().getScreenPosition()).withDuration(2).build());
-//        Thread.sleep(10000);
-//        claim1().click();
-//        Thread.sleep(5000);
-//        claimButton().click();
-//        Thread.sleep(5000);
-//        buttonNext().click();
+        altDriver.swipe(new AltSwipeParams.Builder(levelPages.theRock().getScreenPosition(),levelPages.theRockTrig().getScreenPosition()).withDuration(2).build());
+        Thread.sleep(3000);
+        altDriver.swipe(new AltSwipeParams.Builder(levelPages.alxyRaycastTarget().getScreenPosition(),levelPages.alyxTrig().getScreenPosition()).withDuration(2).build());
+        Thread.sleep(10000);
+        levelPages.claim1().click();
+        Thread.sleep(5000);
+        levelPages.claimButton().click();
+        Thread.sleep(5000);
+        levelPages.buttonNext().click();
         Thread.sleep(5000);
         System.out.println("key().getName() = " + levelPages.key().getName());
         System.out.println("Ben");

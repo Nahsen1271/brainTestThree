@@ -13,7 +13,7 @@ public class ConfigReader {
             properties = new Properties();
             properties.load(file);
         }catch (Exception e){
-            System.out.println("File could not founf");
+            System.out.println("File could not found");
         }
     }
     //will return value from config
