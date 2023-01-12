@@ -1,13 +1,11 @@
-package com.unicoGames.brainTest3.tests;
+package com.unicoGames.brainTest3.stepDefinitions;
 
 import com.alttester.AltDriver;
 import com.alttester.AltObject;
-import com.alttester.AltPortForwarding;
 import com.alttester.Commands.FindObject.AltFindObjectsParams;
 import com.alttester.Commands.FindObject.AltWaitForObjectsParams;
 import com.alttester.Commands.InputActions.AltSwipeParams;
-import com.unicoGames.brainTest3.pages.LevelPages;
-import org.testng.annotations.BeforeMethod;
+import com.unicoGames.brainTest3.pages.android.LevelPages;
 import org.testng.annotations.Test;
 
 public class SettingPage extends TestBase{

@@ -1,17 +1,16 @@
-package com.unicoGames.brainTest3.pages;
+package com.unicoGames.brainTest3.pages.android;
 
 import com.alttester.AltDriver;
 import com.alttester.AltObject;
 import com.alttester.Commands.FindObject.AltFindObjectsParams;
 import com.alttester.Commands.FindObject.AltWaitForObjectsParams;
-import com.unicoGames.brainTest3.tests.TestBase;
-import com.unicoGames.brainTest3.utilities.DriverManager;
+import com.alttester.Commands.InputActions.AltSwipeParams;
 
+public class LevelPages extends BasePage {
 
-
-public class LevelPages extends BasePage{
-
-   // AltDriver altDriver;
+   public void swipeMethod(AltObject APoint,AltObject bPoint){
+       altDriver.swipe(new AltSwipeParams.Builder(APoint.getScreenPosition(),bPoint.getScreenPosition()).withDuration(2).build());
+   }
     public AltObject firstPopup(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/TutorialPopUp/Panel/Window/NoButton/Text (TMP) (1)").
                 isEnabled(true).build();

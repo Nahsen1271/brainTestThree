@@ -1,4 +1,4 @@
-package com.unicoGames.brainTest3.tests;
+package com.unicoGames.brainTest3.stepDefinitions;
 
 import com.alttester.AltDriver;
 import com.alttester.AltPortForwarding;

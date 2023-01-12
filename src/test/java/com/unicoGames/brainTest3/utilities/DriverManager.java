@@ -23,10 +23,10 @@ public class DriverManager {
         AltDriver altDriver = null;
 
         if(appiumDriver==null && driverType.equals("appiumAndAltUnity")) {
-            LOG.info("Initializing appium & altunitydriver");
+            LOG.info("Initializing appium & altDriver");
             switch (platformName){
                 case "Android":
-                    appiumDriver = new AndroidDriver<MobileElement>(new ServerManager().getServer().getUrl(),new CapabilitiesManager().getCaps(platformName));
+                //    appiumDriver = new AndroidDriver<MobileElement>(new ServerManager().getServer().getUrl(),new CapabilitiesManager().getCaps(platformName));
                     AltPortForwarding.forwardAndroid();
                     altDriver = new AltDriver();
                     break;
@@ -35,17 +35,16 @@ public class DriverManager {
             LOG.info("Driver is initialized with AppiumDriver");
             this.altDriver.set(altDriver);
 
-        } else if(driverType.equals("altUnity")){
-            LOG.info("Initializing driver with altUnity");
+        } else if(driverType.equals("altDriver")){
+            LOG.info("Initializing driver with altDriver");
             switch (platformName){
                 case "Android":
                     AltPortForwarding.forwardAndroid();
-                    //altUnityDriver = new AltUnityDriver();
-                    altDriver = new AltDriver();
+                    altDriver = new AltDriver("127.0.0.1",13000,true);
                     break;
                 case "iOS":
             }
-            LOG.info("Driver is initialized with AltUnityDriver");
+            LOG.info("Driver is initialized with AltDriver");
             this.altDriver.set(altDriver);
         }
     }

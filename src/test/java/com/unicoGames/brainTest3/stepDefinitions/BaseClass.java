@@ -1,4 +1,4 @@
-package com.unicoGames.brainTest3.tests;
+package com.unicoGames.brainTest3.stepDefinitions;
 
 import com.alttester.AltDriver;
 import com.alttester.AltObject;
@@ -46,16 +46,16 @@ public class BaseClass {
 //        tapToPlay().click();
 //        Thread.sleep(9000);
         /* LEVEL 1 */
-//        altDriver.swipe(new AltSwipeParams.Builder(theRock().getScreenPosition(),theRockTrig().getScreenPosition()).withDuration(2).build());
-//        Thread.sleep(3000);
-//        altDriver.swipe(new AltSwipeParams.Builder(alxyRaycastTarget().getScreenPosition(),alyxTrig().getScreenPosition()).withDuration(2).build());
-//        Thread.sleep(10000);
-       // claim1().click();
-      //  Thread.sleep(5000);
-      //  claimButton().click();
-      //  Thread.sleep(5000);
-//        buttonNext().click();
-//        Thread.sleep(5000);
+        altDriver.swipe(new AltSwipeParams.Builder(theRock().getScreenPosition(),theRockTrig().getScreenPosition()).withDuration(2).build());
+        Thread.sleep(3000);
+        altDriver.swipe(new AltSwipeParams.Builder(alxyRaycastTarget().getScreenPosition(),alyxTrig().getScreenPosition()).withDuration(2).build());
+        Thread.sleep(10000);
+        claim1().click();
+        Thread.sleep(5000);
+        claimButton().click();
+        Thread.sleep(5000);
+        buttonNext().click();
+        Thread.sleep(5000);
         /* LEVEL 2 */
 //        key().click();
 //        altDriver.swipe(new AltSwipeParams.Builder(keyDraggable().getScreenPosition(),safe().getScreenPosition()).withDuration(2).build());
@@ -87,40 +87,40 @@ public class BaseClass {
 //            System.out.println("İkinci Claim Yok.");
 //        }
         /* LEVEL 3 */
-        cake().click();
-        Thread.sleep(1000);
-        trap().click();
-        Thread.sleep(1000);
-        altDriver.swipe(new AltSwipeParams.Builder(trapDraggable().getScreenPosition(),cakeDraggable().getScreenPosition()).withDuration(2).build());
-        Thread.sleep(1000);
-        arrowRight().click();
-        Thread.sleep(1000);
-        altDriver.swipe(new AltSwipeParams.Builder(trapDraggable2().getScreenPosition(),trapSnapped().getScreenPosition()).withDuration(2).build());
-        Thread.sleep(1000);
-        door().tap();
-        Thread.sleep(5000);
-         buttonNext().click();
-         Thread.sleep(2000);
-        MissThisChance().click();
-        Thread.sleep(9000);
-
-        /* LEVEL 4 */
-        stone().click();
-        Thread.sleep(1000);
-        sling().click();
-        Thread.sleep(1000);
-        altDriver.swipe(new AltSwipeParams.Builder(slingDraggable().getScreenPosition(),stoneDraggable().getScreenPosition()).withDuration(2).build());
-        Thread.sleep(1000);
-        altDriver.swipe(new AltSwipeParams.Builder(slingDraggable2().getScreenPosition(),lamp().getScreenPosition()).withDuration(2).build());
-        Thread.sleep(1000);
-        arrowRight().click();
-        Thread.sleep(1000);
-        scissors().click();
-        Thread.sleep(1000);
-        altDriver.swipe(new AltSwipeParams.Builder(scissorsDraggable().getScreenPosition(),cableTrig().getScreenPosition()).withDuration(2).build());
-        Thread.sleep(5000);
-        buttonNext().click();
-        System.out.println("\"Burada\" = " + "Burada");
+//        cake().click();
+//        Thread.sleep(1000);
+//        trap().click();
+//        Thread.sleep(1000);
+//        altDriver.swipe(new AltSwipeParams.Builder(trapDraggable().getScreenPosition(),cakeDraggable().getScreenPosition()).withDuration(2).build());
+//        Thread.sleep(1000);
+//        arrowRight().click();
+//        Thread.sleep(1000);
+//        altDriver.swipe(new AltSwipeParams.Builder(trapDraggable2().getScreenPosition(),trapSnapped().getScreenPosition()).withDuration(2).build());
+//        Thread.sleep(1000);
+//        door().tap();
+//        Thread.sleep(5000);
+//         buttonNext().click();
+//         Thread.sleep(2000);
+//        MissThisChance().click();
+//        Thread.sleep(9000);
+//
+//        /* LEVEL 4 */
+//        stone().click();
+//        Thread.sleep(1000);
+//        sling().click();
+//        Thread.sleep(1000);
+//        altDriver.swipe(new AltSwipeParams.Builder(slingDraggable().getScreenPosition(),stoneDraggable().getScreenPosition()).withDuration(2).build());
+//        Thread.sleep(1000);
+//        altDriver.swipe(new AltSwipeParams.Builder(slingDraggable2().getScreenPosition(),lamp().getScreenPosition()).withDuration(2).build());
+//        Thread.sleep(1000);
+//        arrowRight().click();
+//        Thread.sleep(1000);
+//        scissors().click();
+//        Thread.sleep(1000);
+//        altDriver.swipe(new AltSwipeParams.Builder(scissorsDraggable().getScreenPosition(),cableTrig().getScreenPosition()).withDuration(2).build());
+//        Thread.sleep(5000);
+//        buttonNext().click();
+//        System.out.println("\"Burada\" = " + "Burada");
 
 //        System.out.println("key().getScreenPosition() = " + key().getScreenPosition());
 //        System.out.println("key().getIdCamera() = " + key().getIdCamera());
