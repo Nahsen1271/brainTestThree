@@ -113,8 +113,9 @@ public class Hooks {
             String date = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
             String target = System.getProperty("user.dir") + File.separator + "test_output" + File.separator + "ScreenShots_" + scenario.getName() + date + ".png";
             altDriver.getPNGScreenshot(target);
-            ReusableMethods.killZulaMobile();
-          //  stepDefs.user_runs_the_game();
+            ReusableMethods.killBrainTest3();
+            Thread.sleep(5000);
+            ReusableMethods.runBrainTest3();
         }
     }
 }

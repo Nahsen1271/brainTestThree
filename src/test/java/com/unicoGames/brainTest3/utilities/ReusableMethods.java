@@ -29,21 +29,21 @@ public class ReusableMethods //extends CMSBasePage
     /**
      * Runs zulaMobile with adbCommand
      * */
-    public static void runZulaMobile() throws IOException, InterruptedException {
+    public static void runBrainTest3() throws IOException, InterruptedException {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        if (GlobalParams.getSystemOS().contains("Windows")){
-            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+//        if (GlobalParams.getSystemOS().contains("Windows")){
+//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
                 processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandGooglePlay"));
-            }else{
-                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandCafebazaar"));
-            }
-        } else{
-            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
-            }else{
-                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
-            }
-        }
+//            }else{
+//                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandCafebazaar"));
+//            }
+//        } else{
+//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+//                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
+//            }else{
+//                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
+//            }
+//        }
         Process process = processBuilder.start();
         process.waitFor();
     }
@@ -59,7 +59,7 @@ public class ReusableMethods //extends CMSBasePage
         }
         Process process = processBuilder.start();
         process.waitFor();
-        runZulaMobile();
+        //runZulaMobile();
     }
 
     /**
@@ -82,26 +82,26 @@ public class ReusableMethods //extends CMSBasePage
         }
         Process process = processBuilder.start();
         process.waitFor();
-        runZulaMobile();
+        //runZulaMobile();
     }
     /**
      * Force closes zulaMobile with adb command
      * */
-    public static void killZulaMobile() throws Exception {
+    public static void killBrainTest3() throws Exception {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        if(GlobalParams.getSystemOS().contains("Windows")){
-            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+//        if(GlobalParams.getSystemOS().contains("Windows")){
+//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
                 processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandGooglePlay"));
-            }else{
-                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandCafebazaar"));
-            }
-        }else{
-            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandGooglePlay"));
-            }else{
-                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandCafebazaar"));
-            }
-        }
+//            }else{
+//                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandCafebazaar"));
+//            }
+//        }else{
+//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+//                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandGooglePlay"));
+//            }else{
+//                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandCafebazaar"));
+//            }
+//        }
         Process process = processBuilder.start();
         process.waitFor();
     }
