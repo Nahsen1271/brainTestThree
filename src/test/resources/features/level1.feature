@@ -11,7 +11,6 @@ Feature:
     * Gamer can claim the daily reward
     * Gamer can pass the level
 
-
   Scenario: Gamer can play the level two
     * Gamer can swipe the key to the frame
     * Gamer can swipe the key to the money case
