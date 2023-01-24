@@ -6,7 +6,6 @@ import com.unicoGames.brainTest3.utilities.DriverManager;
 import org.testng.annotations.BeforeTest;
 
 public class TestBase {
-
     AltDriver altDriver;
     @BeforeTest
     public void setUp(){

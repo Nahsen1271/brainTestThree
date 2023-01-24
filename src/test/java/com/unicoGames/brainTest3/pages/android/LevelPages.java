@@ -283,6 +283,7 @@ public class LevelPages extends BasePage {
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
         return altDriver.waitForObject(params);//ClaimButton
     }
+
     public AltObject arrowLeft(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "arrowLeft").
                 isEnabled(true).build();

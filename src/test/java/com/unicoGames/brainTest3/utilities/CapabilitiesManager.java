@@ -6,7 +6,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class CapabilitiesManager {
-
     private static Logger LOG = LogManager.getLogger("CapabilitiesManager.class");
     public DesiredCapabilities getCaps(String platformName){
 

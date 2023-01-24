@@ -19,6 +19,7 @@ public class DriverManager {
         return altDriver.get();
     }
 
+
     public void initializeDriver(String platformName,String driverType){
         AltDriver altDriver = null;
 

@@ -83,6 +83,7 @@ public class GlobalParams {
     public static String getSystemOS() {
         return systemOS;
     }
+
     public static void setSystemOS(String systemOS) {
         GlobalParams.systemOS = systemOS;
     }

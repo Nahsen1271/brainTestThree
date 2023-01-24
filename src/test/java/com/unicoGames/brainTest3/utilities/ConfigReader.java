@@ -15,6 +15,7 @@ public class ConfigReader {
         }catch (Exception e){
             System.out.println("File could not found");
         }
+
     }
     //will return value from config
     public static String getProperty(String key){

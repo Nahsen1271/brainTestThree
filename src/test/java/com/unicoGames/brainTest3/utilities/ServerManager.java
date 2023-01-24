@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 
 public class ServerManager {
+
     private static Logger LOG = LogManager.getLogger("ServerManager.class");
     private static ThreadLocal<AppiumDriverLocalService> server = new ThreadLocal<>();
     public AppiumDriverLocalService getServer(){

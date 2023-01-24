@@ -23,6 +23,7 @@ import org.testng.annotations.Parameters;
         tags = "@nahsen",
         dryRun = false,
        publish = true
+
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

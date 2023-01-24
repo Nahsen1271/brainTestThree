@@ -313,6 +313,7 @@ public class LevelOneStepDefs {
         levelPages.swipeMethod(levelPages.box(),levelPages.arrowLeft());
         levelPages.levelSixBtn2().click();
         ReusableMethods.waitForSecond(5);
+
     }
 
 }
