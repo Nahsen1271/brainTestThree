@@ -1,1 +1,701 @@
 Setting up port forward for android local port 13000 remote port: 13000
+adb forward enabled.
+Connecting to host: 127.0.0.1 port: 13000.
+Connected to: ws://127.0.0.1:13000/altws/
+command sent: {"messageId":"1674711194234","commandName":"getServerVersion"}
+response received: {"messageId":"1674711194234","commandName":"getServerVersion","error":null,"data":"\"1.8.0\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711204537","commandName":"findObject"}
+response received: {"messageId":"1674711204537","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711205174","commandName":"findObject"}
+response received: {"messageId":"1674711205174","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711205788","commandName":"findObject"}
+response received: {"messageId":"1674711205788","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711206404","commandName":"findObject"}
+response received: {"messageId":"1674711206404","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711207026","commandName":"findObject"}
+response received: {"messageId":"1674711207026","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711207645","commandName":"findObject"}
+response received: {"messageId":"1674711207645","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711208274","commandName":"findObject"}
+response received: {"messageId":"1674711208274","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711208897","commandName":"findObject"}
+response received: {"messageId":"1674711208897","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711209522","commandName":"findObject"}
+response received: {"messageId":"1674711209522","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains //SkipButton....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711210146","commandName":"findObject"}
+response received: {"messageId":"1674711210146","commandName":"findObject","error":{"type":"notFound","message":"Object //SkipButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //SkipButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //SkipButton not found
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//Button","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"Button","cameraValue":"","messageId":"1674711219779","commandName":"findObject"}
+response received: {"messageId":"1674711219779","commandName":"findObject","error":null,"data":"{\"name\":\"Button\",\"id\":4594,\"x\":540,\"y\":1200,\"z\":0,\"mobileY\":1200,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":1200.0,\"worldZ\":0.0,\"idCamera\":4864,\"transformParentId\":5154,\"transformId\":5156}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"Button","id":4594,"x":540,"y":1200,"z":0,"mobileY":1200,"type":"","enabled":true,"worldX":540.0,"worldY":1200.0,"worldZ":0.0,"idCamera":4864,"transformParentId":5154,"transformId":5156},"messageId":"1674711219894","commandName":"clickElement"}
+response received: {"messageId":"1674711219894","commandName":"clickElement","error":null,"data":"{\"name\":\"Button\",\"id\":4594,\"x\":540,\"y\":1200,\"z\":0,\"mobileY\":1200,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":1200.0,\"worldZ\":0.0,\"idCamera\":4864,\"transformParentId\":5154,\"transformId\":5156}","isNotification":false}
+response received: {"messageId":"1674711219894","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//YesButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"YesButton","cameraValue":"","messageId":"1674711224002","commandName":"findObject"}
+response received: {"messageId":"1674711224002","commandName":"findObject","error":null,"data":"{\"name\":\"YesButton\",\"id\":8876,\"x\":540,\"y\":1147,\"z\":0,\"mobileY\":1253,\"type\":\"\",\"enabled\":true,\"worldX\":540.001038,\"worldY\":1146.70459,\"worldZ\":0.0,\"idCamera\":9354,\"transformParentId\":12238,\"transformId\":12986}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"YesButton","id":8876,"x":540,"y":1147,"z":0,"mobileY":1253,"type":"","enabled":true,"worldX":540.00104,"worldY":1146.7046,"worldZ":0.0,"idCamera":9354,"transformParentId":12238,"transformId":12986},"messageId":"1674711224109","commandName":"clickElement"}
+response received: {"messageId":"1674711224109","commandName":"clickElement","error":null,"data":"{\"name\":\"YesButton\",\"id\":8876,\"x\":540,\"y\":1147,\"z\":0,\"mobileY\":1253,\"type\":\"\",\"enabled\":true,\"worldX\":540.001038,\"worldY\":1146.70459,\"worldZ\":0.0,\"idCamera\":9354,\"transformParentId\":12238,\"transformId\":12986}","isNotification":false}
+response received: {"messageId":"1674711224109","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//TapToPlay","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"TapToPlay","cameraValue":"","messageId":"1674711230242","commandName":"findObject"}
+response received: {"messageId":"1674711230242","commandName":"findObject","error":null,"data":"{\"name\":\"TapToPlay\",\"id\":7678,\"x\":540,\"y\":560,\"z\":0,\"mobileY\":1840,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":560.0,\"worldZ\":0.0,\"idCamera\":9354,\"transformParentId\":11930,\"transformId\":11794}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"TapToPlay","id":7678,"x":540,"y":560,"z":0,"mobileY":1840,"type":"","enabled":true,"worldX":540.0,"worldY":560.0,"worldZ":0.0,"idCamera":9354,"transformParentId":11930,"transformId":11794},"messageId":"1674711230352","commandName":"clickElement"}
+response received: {"messageId":"1674711230352","commandName":"clickElement","error":null,"data":"{\"name\":\"TapToPlay\",\"id\":7678,\"x\":540,\"y\":560,\"z\":0,\"mobileY\":1840,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":560.0,\"worldZ\":0.0,\"idCamera\":9354,\"transformParentId\":11930,\"transformId\":11794}","isNotification":false}
+response received: {"messageId":"1674711230352","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//rock","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"rock","cameraValue":"","messageId":"1674711236703","commandName":"findObject"}
+response received: {"messageId":"1674711236703","commandName":"findObject","error":null,"data":"{\"name\":\"rock\",\"id\":16270,\"x\":818,\"y\":802,\"z\":0,\"mobileY\":1598,\"type\":\"\",\"enabled\":true,\"worldX\":818.0,\"worldY\":802.0,\"worldZ\":0.0,\"idCamera\":16752,\"transformParentId\":17252,\"transformId\":17248}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//rockTrig","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"rockTrig","cameraValue":"","messageId":"1674711236814","commandName":"findObject"}
+response received: {"messageId":"1674711236814","commandName":"findObject","error":null,"data":"{\"name\":\"rockTrig\",\"id\":16322,\"x\":403,\"y\":1054,\"z\":0,\"mobileY\":1346,\"type\":\"\",\"enabled\":true,\"worldX\":403.0,\"worldY\":1054.0,\"worldZ\":0.0,\"idCamera\":16752,\"transformParentId\":17252,\"transformId\":17300}","isNotification":false}
+command sent: {"start":{"x":818.0,"y":802.0},"end":{"x":403.0,"y":1054.0},"duration":2.0,"wait":true,"messageId":"1674711236929","commandName":"swipe"}
+response received: {"messageId":"1674711236929","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711236929","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//raycastTarget","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"raycastTarget","cameraValue":"","messageId":"1674711242129","commandName":"findObject"}
+response received: {"messageId":"1674711242129","commandName":"findObject","error":null,"data":"{\"name\":\"raycastTarget\",\"id\":16260,\"x\":145,\"y\":1253,\"z\":0,\"mobileY\":1147,\"type\":\"\",\"enabled\":true,\"worldX\":145.0,\"worldY\":1253.1969,\"worldZ\":0.0,\"idCamera\":16752,\"transformParentId\":17288,\"transformId\":17238}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//alyxTrig","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"alyxTrig","cameraValue":"","messageId":"1674711242237","commandName":"findObject"}
+response received: {"messageId":"1674711242237","commandName":"findObject","error":null,"data":"{\"name\":\"alyxTrig\",\"id\":16282,\"x\":235,\"y\":766,\"z\":0,\"mobileY\":1634,\"type\":\"\",\"enabled\":true,\"worldX\":235.0,\"worldY\":766.0,\"worldZ\":0.0,\"idCamera\":16752,\"transformParentId\":17252,\"transformId\":17260}","isNotification":false}
+command sent: {"start":{"x":145.0,"y":1253.0},"end":{"x":235.0,"y":766.0},"duration":2.0,"wait":true,"messageId":"1674711242354","commandName":"swipe"}
+response received: {"messageId":"1674711242354","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711242354","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711250547","commandName":"findObject"}
+response received: {"messageId":"1674711250547","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711251169","commandName":"findObject"}
+response received: {"messageId":"1674711251169","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711251792","commandName":"findObject"}
+response received: {"messageId":"1674711251792","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711252414","commandName":"findObject"}
+response received: {"messageId":"1674711252414","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711253035","commandName":"findObject"}
+response received: {"messageId":"1674711253035","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711253663","commandName":"findObject"}
+response received: {"messageId":"1674711253663","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711254285","commandName":"findObject"}
+response received: {"messageId":"1674711254285","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711254908","commandName":"findObject"}
+response received: {"messageId":"1674711254908","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711255528","commandName":"findObject"}
+response received: {"messageId":"1674711255528","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains //1....
+command sent: {"by":"NAME","path":"//1","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"1","cameraValue":"","messageId":"1674711256133","commandName":"findObject"}
+response received: {"messageId":"1674711256133","commandName":"findObject","error":{"type":"notFound","message":"Object //1 not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //1 not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //1 not found
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711259753","commandName":"findObject"}
+response received: {"messageId":"1674711259753","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711260367","commandName":"findObject"}
+response received: {"messageId":"1674711260367","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711260988","commandName":"findObject"}
+response received: {"messageId":"1674711260988","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711261607","commandName":"findObject"}
+response received: {"messageId":"1674711261607","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711262218","commandName":"findObject"}
+response received: {"messageId":"1674711262218","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711262844","commandName":"findObject"}
+response received: {"messageId":"1674711262844","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711263464","commandName":"findObject"}
+response received: {"messageId":"1674711263464","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711264091","commandName":"findObject"}
+response received: {"messageId":"1674711264091","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711264709","commandName":"findObject"}
+response received: {"messageId":"1674711264709","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains //ClaimButton....
+command sent: {"by":"NAME","path":"//ClaimButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"ClaimButton","cameraValue":"","messageId":"1674711265321","commandName":"findObject"}
+response received: {"messageId":"1674711265321","commandName":"findObject","error":{"type":"notFound","message":"Object //ClaimButton not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //ClaimButton not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //ClaimButton not found
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711274955","commandName":"findObject"}
+response received: {"messageId":"1674711274955","commandName":"findObject","error":null,"data":"{\"name\":\"buttonNext\",\"id\":18424,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":19060,\"transformParentId\":19986,\"transformId\":19912}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"buttonNext","id":18424,"x":810,"y":630,"z":0,"mobileY":1770,"type":"","enabled":true,"worldX":810.0,"worldY":630.0,"worldZ":0.0,"idCamera":19060,"transformParentId":19986,"transformId":19912},"messageId":"1674711275064","commandName":"clickElement"}
+response received: {"messageId":"1674711275064","commandName":"clickElement","error":null,"data":"{\"name\":\"buttonNext\",\"id\":18424,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":19060,\"transformParentId\":19986,\"transformId\":19912}","isNotification":false}
+response received: {"messageId":"1674711275064","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//key","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"key","cameraValue":"","messageId":"1674711283443","commandName":"findObject"}
+response received: {"messageId":"1674711283443","commandName":"findObject","error":null,"data":"{\"name\":\"key\",\"id\":21472,\"x\":509,\"y\":1072,\"z\":0,\"mobileY\":1328,\"type\":\"\",\"enabled\":true,\"worldX\":509.101563,\"worldY\":1072.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22904,\"transformId\":22758}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"key","id":21472,"x":509,"y":1072,"z":0,"mobileY":1328,"type":"","enabled":true,"worldX":509.10156,"worldY":1072.0,"worldZ":0.0,"idCamera":22128,"transformParentId":22904,"transformId":22758},"messageId":"1674711283553","commandName":"clickElement"}
+response received: {"messageId":"1674711283553","commandName":"clickElement","error":null,"data":"{\"name\":\"key\",\"id\":21472,\"x\":509,\"y\":1072,\"z\":0,\"mobileY\":1328,\"type\":\"\",\"enabled\":true,\"worldX\":509.101563,\"worldY\":1072.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22904,\"transformId\":22758}","isNotification":false}
+response received: {"messageId":"1674711283553","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//keyDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"keyDraggable","cameraValue":"","messageId":"1674711289686","commandName":"findObject"}
+response received: {"messageId":"1674711289686","commandName":"findObject","error":null,"data":"{\"name\":\"keyDraggable\",\"id\":21606,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":23142,\"transformId\":22886}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//safe","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"safe","cameraValue":"","messageId":"1674711289796","commandName":"findObject"}
+response received: {"messageId":"1674711289796","commandName":"findObject","error":null,"data":"{\"name\":\"safe\",\"id\":21650,\"x\":825,\"y\":1085,\"z\":0,\"mobileY\":1315,\"type\":\"\",\"enabled\":true,\"worldX\":825.101563,\"worldY\":1084.995,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22904,\"transformId\":22930}","isNotification":false}
+command sent: {"start":{"x":323.0,"y":524.0},"end":{"x":825.0,"y":1085.0},"duration":2.0,"wait":true,"messageId":"1674711289905","commandName":"swipe"}
+response received: {"messageId":"1674711289905","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711289905","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//bust","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"bust","cameraValue":"","messageId":"1674711294092","commandName":"findObject"}
+response received: {"messageId":"1674711294092","commandName":"findObject","error":null,"data":"{\"name\":\"bust\",\"id\":21536,\"x\":843,\"y\":1065,\"z\":0,\"mobileY\":1335,\"type\":\"\",\"enabled\":true,\"worldX\":843.101563,\"worldY\":1064.995,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22782,\"transformId\":22818}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"bust","id":21536,"x":843,"y":1065,"z":0,"mobileY":1335,"type":"","enabled":true,"worldX":843.10156,"worldY":1064.995,"worldZ":0.0,"idCamera":22128,"transformParentId":22782,"transformId":22818},"messageId":"1674711294204","commandName":"clickElement"}
+response received: {"messageId":"1674711294204","commandName":"clickElement","error":null,"data":"{\"name\":\"bust\",\"id\":21536,\"x\":843,\"y\":1065,\"z\":0,\"mobileY\":1335,\"type\":\"\",\"enabled\":true,\"worldX\":843.101563,\"worldY\":1064.995,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22782,\"transformId\":22818}","isNotification":false}
+response received: {"messageId":"1674711294204","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//arrowRight","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"arrowRight","cameraValue":"","messageId":"1674711297321","commandName":"findObject"}
+response received: {"messageId":"1674711297321","commandName":"findObject","error":null,"data":"{\"name\":\"arrowRight\",\"id\":21628,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22838,\"transformId\":22908}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"arrowRight","id":21628,"x":1008,"y":1315,"z":0,"mobileY":1085,"type":"","enabled":true,"worldX":1007.60156,"worldY":1315.0,"worldZ":0.0,"idCamera":22128,"transformParentId":22838,"transformId":22908},"messageId":"1674711297433","commandName":"tapElement"}
+response received: {"messageId":"1674711297433","commandName":"tapElement","error":null,"data":"{\"name\":\"arrowRight\",\"id\":21628,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22838,\"transformId\":22908}","isNotification":false}
+response received: {"messageId":"1674711297433","commandName":"tapElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//bustDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"bustDraggable","cameraValue":"","messageId":"1674711303560","commandName":"findObject"}
+response received: {"messageId":"1674711303560","commandName":"findObject","error":null,"data":"{\"name\":\"bustDraggable\",\"id\":21632,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":23142,\"transformId\":22912}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//bust2","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"bust2","cameraValue":"","messageId":"1674711303669","commandName":"findObject"}
+response received: {"messageId":"1674711303669","commandName":"findObject","error":null,"data":"{\"name\":\"bust2\",\"id\":21502,\"x\":227,\"y\":1364,\"z\":0,\"mobileY\":1036,\"type\":\"\",\"enabled\":true,\"worldX\":227.101685,\"worldY\":1364.0,\"worldZ\":0.0,\"idCamera\":22128,\"transformParentId\":22904,\"transformId\":22786}","isNotification":false}
+command sent: {"start":{"x":323.0,"y":524.0},"end":{"x":227.0,"y":1364.0},"duration":2.0,"wait":true,"messageId":"1674711303778","commandName":"swipe"}
+response received: {"messageId":"1674711303778","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711303778","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711317988","commandName":"findObject"}
+response received: {"messageId":"1674711317988","commandName":"findObject","error":null,"data":"{\"name\":\"buttonNext\",\"id\":24138,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":24774,\"transformParentId\":25700,\"transformId\":25626}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"buttonNext","id":24138,"x":810,"y":630,"z":0,"mobileY":1770,"type":"","enabled":true,"worldX":810.0,"worldY":630.0,"worldZ":0.0,"idCamera":24774,"transformParentId":25700,"transformId":25626},"messageId":"1674711318099","commandName":"clickElement"}
+response received: {"messageId":"1674711318099","commandName":"clickElement","error":null,"data":"{\"name\":\"buttonNext\",\"id\":24138,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":24774,\"transformParentId\":25700,\"transformId\":25626}","isNotification":false}
+response received: {"messageId":"1674711318099","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//cake","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"cake","cameraValue":"","messageId":"1674711324349","commandName":"findObject"}
+response received: {"messageId":"1674711324349","commandName":"findObject","error":null,"data":"{\"name\":\"cake\",\"id\":27208,\"x\":525,\"y\":1133,\"z\":0,\"mobileY\":1267,\"type\":\"\",\"enabled\":true,\"worldX\":525.101563,\"worldY\":1132.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28600}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"cake","id":27208,"x":525,"y":1133,"z":0,"mobileY":1267,"type":"","enabled":true,"worldX":525.10156,"worldY":1132.995,"worldZ":0.0,"idCamera":27896,"transformParentId":28772,"transformId":28600},"messageId":"1674711324458","commandName":"clickElement"}
+response received: {"messageId":"1674711324458","commandName":"clickElement","error":null,"data":"{\"name\":\"cake\",\"id\":27208,\"x\":525,\"y\":1133,\"z\":0,\"mobileY\":1267,\"type\":\"\",\"enabled\":true,\"worldX\":525.101563,\"worldY\":1132.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28600}","isNotification":false}
+response received: {"messageId":"1674711324458","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//trap","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"trap","cameraValue":"","messageId":"1674711326592","commandName":"findObject"}
+response received: {"messageId":"1674711326592","commandName":"findObject","error":null,"data":"{\"name\":\"trap\",\"id\":27286,\"x\":529,\"y\":875,\"z\":0,\"mobileY\":1525,\"type\":\"\",\"enabled\":true,\"worldX\":529.101563,\"worldY\":874.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28674}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"trap","id":27286,"x":529,"y":875,"z":0,"mobileY":1525,"type":"","enabled":true,"worldX":529.10156,"worldY":874.995,"worldZ":0.0,"idCamera":27896,"transformParentId":28772,"transformId":28674},"messageId":"1674711326701","commandName":"clickElement"}
+response received: {"messageId":"1674711326701","commandName":"clickElement","error":null,"data":"{\"name\":\"trap\",\"id\":27286,\"x\":529,\"y\":875,\"z\":0,\"mobileY\":1525,\"type\":\"\",\"enabled\":true,\"worldX\":529.101563,\"worldY\":874.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28674}","isNotification":false}
+response received: {"messageId":"1674711326701","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//trapDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"trapDraggable","cameraValue":"","messageId":"1674711328829","commandName":"findObject"}
+response received: {"messageId":"1674711328829","commandName":"findObject","error":null,"data":"{\"name\":\"trapDraggable\",\"id\":27294,\"x\":468,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":467.7,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28722,\"transformId\":28682}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//cakeDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"cakeDraggable","cameraValue":"","messageId":"1674711328939","commandName":"findObject"}
+response received: {"messageId":"1674711328939","commandName":"findObject","error":null,"data":"{\"name\":\"cakeDraggable\",\"id\":27428,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28730,\"transformId\":28814}","isNotification":false}
+command sent: {"start":{"x":468.0,"y":524.0},"end":{"x":323.0,"y":524.0},"duration":2.0,"wait":true,"messageId":"1674711329049","commandName":"swipe"}
+response received: {"messageId":"1674711329049","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711329049","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//arrowRight","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"arrowRight","cameraValue":"","messageId":"1674711335240","commandName":"findObject"}
+response received: {"messageId":"1674711335240","commandName":"findObject","error":null,"data":"{\"name\":\"arrowRight\",\"id\":27396,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28678,\"transformId\":28784}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"arrowRight","id":27396,"x":1008,"y":1315,"z":0,"mobileY":1085,"type":"","enabled":true,"worldX":1007.60156,"worldY":1315.0,"worldZ":0.0,"idCamera":27896,"transformParentId":28678,"transformId":28784},"messageId":"1674711335350","commandName":"tapElement"}
+response received: {"messageId":"1674711335350","commandName":"tapElement","error":null,"data":"{\"name\":\"arrowRight\",\"id\":27396,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28678,\"transformId\":28784}","isNotification":false}
+response received: {"messageId":"1674711335350","commandName":"tapElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//trapDraggable2","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"trapDraggable2","cameraValue":"","messageId":"1674711339467","commandName":"findObject"}
+response received: {"messageId":"1674711339467","commandName":"findObject","error":null,"data":"{\"name\":\"trapDraggable2\",\"id\":27168,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28730,\"transformId\":28560}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//trapSnapped","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"trapSnapped","cameraValue":"","messageId":"1674711339579","commandName":"findObject"}
+response received: {"messageId":"1674711339579","commandName":"findObject","error":null,"data":"{\"name\":\"trapSnapped\",\"id\":27248,\"x\":320,\"y\":1452,\"z\":0,\"mobileY\":948,\"type\":\"\",\"enabled\":true,\"worldX\":320.101563,\"worldY\":1451.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28636}","isNotification":false}
+command sent: {"start":{"x":323.0,"y":524.0},"end":{"x":320.0,"y":1452.0},"duration":2.0,"wait":true,"messageId":"1674711339687","commandName":"swipe"}
+response received: {"messageId":"1674711339687","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711339687","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//door","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"door","cameraValue":"","messageId":"1674711345877","commandName":"findObject"}
+response received: {"messageId":"1674711345877","commandName":"findObject","error":null,"data":"{\"name\":\"door\",\"id\":27296,\"x\":783,\"y\":1403,\"z\":0,\"mobileY\":997,\"type\":\"\",\"enabled\":true,\"worldX\":783.101563,\"worldY\":1402.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28684}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"door","id":27296,"x":783,"y":1403,"z":0,"mobileY":997,"type":"","enabled":true,"worldX":783.10156,"worldY":1402.995,"worldZ":0.0,"idCamera":27896,"transformParentId":28772,"transformId":28684},"messageId":"1674711345987","commandName":"clickElement"}
+response received: {"messageId":"1674711345987","commandName":"clickElement","error":null,"data":"{\"name\":\"door\",\"id\":27296,\"x\":783,\"y\":1403,\"z\":0,\"mobileY\":997,\"type\":\"\",\"enabled\":true,\"worldX\":783.101563,\"worldY\":1402.995,\"worldZ\":0.0,\"idCamera\":27896,\"transformParentId\":28772,\"transformId\":28684}","isNotification":false}
+response received: {"messageId":"1674711345987","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711368115","commandName":"findObject"}
+response received: {"messageId":"1674711368115","commandName":"findObject","error":null,"data":"{\"name\":\"buttonNext\",\"id\":30092,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":30728,\"transformParentId\":31654,\"transformId\":31580}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"buttonNext","id":30092,"x":810,"y":630,"z":0,"mobileY":1770,"type":"","enabled":true,"worldX":810.0,"worldY":630.0,"worldZ":0.0,"idCamera":30728,"transformParentId":31654,"transformId":31580},"messageId":"1674711368223","commandName":"clickElement"}
+response received: {"messageId":"1674711368223","commandName":"clickElement","error":null,"data":"{\"name\":\"buttonNext\",\"id\":30092,\"x\":810,\"y\":630,\"z\":0,\"mobileY\":1770,\"type\":\"\",\"enabled\":true,\"worldX\":810.0,\"worldY\":630.0,\"worldZ\":0.0,\"idCamera\":30728,\"transformParentId\":31654,\"transformId\":31580}","isNotification":false}
+response received: {"messageId":"1674711368223","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//Star5","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"Star5","cameraValue":"","messageId":"1674711376455","commandName":"findObject"}
+response received: {"messageId":"1674711376455","commandName":"findObject","error":null,"data":"{\"name\":\"Star5\",\"id\":33086,\"x\":840,\"y\":1200,\"z\":0,\"mobileY\":1200,\"type\":\"\",\"enabled\":true,\"worldX\":840.0,\"worldY\":1200.0,\"worldZ\":0.0,\"idCamera\":33358,\"transformParentId\":33634,\"transformId\":33652}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"Star5","id":33086,"x":840,"y":1200,"z":0,"mobileY":1200,"type":"","enabled":true,"worldX":840.0,"worldY":1200.0,"worldZ":0.0,"idCamera":33358,"transformParentId":33634,"transformId":33652},"messageId":"1674711376563","commandName":"tapElement"}
+response received: {"messageId":"1674711376563","commandName":"tapElement","error":null,"data":"{\"name\":\"Star5\",\"id\":33086,\"x\":840,\"y\":1200,\"z\":0,\"mobileY\":1200,\"type\":\"\",\"enabled\":true,\"worldX\":840.0,\"worldY\":1200.0,\"worldZ\":0.0,\"idCamera\":33358,\"transformParentId\":33634,\"transformId\":33652}","isNotification":false}
+response received: {"messageId":"1674711376563","commandName":"tapElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//SubmitButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SubmitButton","cameraValue":"","messageId":"1674711379683","commandName":"findObject"}
+response received: {"messageId":"1674711379683","commandName":"findObject","error":null,"data":"{\"name\":\"SubmitButton\",\"id\":33098,\"x\":540,\"y\":950,\"z\":0,\"mobileY\":1450,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":950.0,\"worldZ\":0.0,\"idCamera\":33358,\"transformParentId\":33634,\"transformId\":33664}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"SubmitButton","id":33098,"x":540,"y":950,"z":0,"mobileY":1450,"type":"","enabled":true,"worldX":540.0,"worldY":950.0,"worldZ":0.0,"idCamera":33358,"transformParentId":33634,"transformId":33664},"messageId":"1674711379795","commandName":"clickElement"}
+response received: {"messageId":"1674711379795","commandName":"clickElement","error":null,"data":"{\"name\":\"SubmitButton\",\"id\":33098,\"x\":540,\"y\":950,\"z\":0,\"mobileY\":1450,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":950.0,\"worldZ\":0.0,\"idCamera\":33358,\"transformParentId\":33634,\"transformId\":33664}","isNotification":false}
+response received: {"messageId":"1674711379795","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711381241","commandName":"findObject"}
+response received: {"messageId":"1674711381241","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711381864","commandName":"findObject"}
+response received: {"messageId":"1674711381864","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711382488","commandName":"findObject"}
+response received: {"messageId":"1674711382488","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711383113","commandName":"findObject"}
+response received: {"messageId":"1674711383113","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711383738","commandName":"findObject"}
+response received: {"messageId":"1674711383738","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711384362","commandName":"findObject"}
+response received: {"messageId":"1674711384362","commandName":"findObject","error":{"type":"notFound","message":"Object //MissThisChance not found","trace":"  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 \n  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 \n  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 "},"data":null,"isNotification":false}
+notFound: Object //MissThisChance not found
+  at Altom.AltTester.Commands.AltFindObjectCommand.Execute () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteHandleErrors[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Commands.AltCommand`2[TParam,TResult].ExecuteAndSerialize[T] (System.Func`1[TResult] action) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Func`1[TResult].Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.CommandHandler+<>c__DisplayClass7_0.<OnMessage>b__0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.SendResponse.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at Altom.AltTester.Communication.AltResponseQueue.Cycle () [0x00000] in <00000000000000000000000000000000>:0 
+Exception thrown: Object //MissThisChance not found
+Waiting for element where name contains //MissThisChance....
+command sent: {"by":"NAME","path":"//MissThisChance","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"MissThisChance","cameraValue":"","messageId":"1674711384986","commandName":"findObject"}
+response received: {"messageId":"1674711384986","commandName":"findObject","error":null,"data":"{\"name\":\"MissThisChance\",\"id\":34476,\"x\":540,\"y\":595,\"z\":0,\"mobileY\":1805,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":595.0,\"worldZ\":0.0,\"idCamera\":34782,\"transformParentId\":35078,\"transformId\":35084}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"MissThisChance","id":34476,"x":540,"y":595,"z":0,"mobileY":1805,"type":"","enabled":true,"worldX":540.0,"worldY":595.0,"worldZ":0.0,"idCamera":34782,"transformParentId":35078,"transformId":35084},"messageId":"1674711385103","commandName":"clickElement"}
+response received: {"messageId":"1674711385103","commandName":"clickElement","error":null,"data":"{\"name\":\"MissThisChance\",\"id\":34476,\"x\":540,\"y\":595,\"z\":0,\"mobileY\":1805,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":595.0,\"worldZ\":0.0,\"idCamera\":34782,\"transformParentId\":35078,\"transformId\":35084}","isNotification":false}
+response received: {"messageId":"1674711385103","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//SkipButton","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"SkipButton","cameraValue":"","messageId":"1674711390326","commandName":"findObject"}
+response received: {"messageId":"1674711390326","commandName":"findObject","error":null,"data":"{\"name\":\"SkipButton\",\"id\":36008,\"x\":540,\"y\":463,\"z\":0,\"mobileY\":1937,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":462.700073,\"worldZ\":0.0,\"idCamera\":36348,\"transformParentId\":36788,\"transformId\":36776}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"SkipButton","id":36008,"x":540,"y":463,"z":0,"mobileY":1937,"type":"","enabled":true,"worldX":540.0,"worldY":462.70007,"worldZ":0.0,"idCamera":36348,"transformParentId":36788,"transformId":36776},"messageId":"1674711390434","commandName":"clickElement"}
+response received: {"messageId":"1674711390434","commandName":"clickElement","error":null,"data":"{\"name\":\"SkipButton\",\"id\":36008,\"x\":540,\"y\":463,\"z\":0,\"mobileY\":1937,\"type\":\"\",\"enabled\":true,\"worldX\":540.0,\"worldY\":462.700073,\"worldZ\":0.0,\"idCamera\":36348,\"transformParentId\":36788,\"transformId\":36776}","isNotification":false}
+response received: {"messageId":"1674711390434","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//sling","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"sling","cameraValue":"","messageId":"1674711396811","commandName":"findObject"}
+response received: {"messageId":"1674711396811","commandName":"findObject","error":null,"data":"{\"name\":\"sling\",\"id\":38106,\"x\":885,\"y\":862,\"z\":0,\"mobileY\":1538,\"type\":\"\",\"enabled\":true,\"worldX\":885.101563,\"worldY\":861.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":40024}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"sling","id":38106,"x":885,"y":862,"z":0,"mobileY":1538,"type":"","enabled":true,"worldX":885.10156,"worldY":861.995,"worldZ":0.0,"idCamera":38874,"transformParentId":40204,"transformId":40024},"messageId":"1674711396921","commandName":"clickElement"}
+response received: {"messageId":"1674711396921","commandName":"clickElement","error":null,"data":"{\"name\":\"sling\",\"id\":38106,\"x\":885,\"y\":862,\"z\":0,\"mobileY\":1538,\"type\":\"\",\"enabled\":true,\"worldX\":885.101563,\"worldY\":861.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":40024}","isNotification":false}
+response received: {"messageId":"1674711396921","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//stone","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"stone","cameraValue":"","messageId":"1674711403048","commandName":"findObject"}
+response received: {"messageId":"1674711403048","commandName":"findObject","error":null,"data":"{\"name\":\"stone\",\"id\":37882,\"x\":458,\"y\":1079,\"z\":0,\"mobileY\":1321,\"type\":\"\",\"enabled\":true,\"worldX\":458.101563,\"worldY\":1078.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":39804}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"stone","id":37882,"x":458,"y":1079,"z":0,"mobileY":1321,"type":"","enabled":true,"worldX":458.10156,"worldY":1078.995,"worldZ":0.0,"idCamera":38874,"transformParentId":40204,"transformId":39804},"messageId":"1674711403155","commandName":"clickElement"}
+response received: {"messageId":"1674711403155","commandName":"clickElement","error":null,"data":"{\"name\":\"stone\",\"id\":37882,\"x\":458,\"y\":1079,\"z\":0,\"mobileY\":1321,\"type\":\"\",\"enabled\":true,\"worldX\":458.101563,\"worldY\":1078.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":39804}","isNotification":false}
+response received: {"messageId":"1674711403155","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//stoneDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"stoneDraggable","cameraValue":"","messageId":"1674711409286","commandName":"findObject"}
+response received: {"messageId":"1674711409286","commandName":"findObject","error":null,"data":"{\"name\":\"stoneDraggable\",\"id\":38096,\"x\":468,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":467.7,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40524,\"transformId\":40014}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//slingDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"slingDraggable","cameraValue":"","messageId":"1674711409394","commandName":"findObject"}
+response received: {"messageId":"1674711409394","commandName":"findObject","error":null,"data":"{\"name\":\"slingDraggable\",\"id\":38124,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40522,\"transformId\":40042}","isNotification":false}
+command sent: {"start":{"x":468.0,"y":524.0},"end":{"x":323.0,"y":524.0},"duration":2.0,"wait":true,"messageId":"1674711409503","commandName":"swipe"}
+response received: {"messageId":"1674711409503","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711409503","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//slingDraggable2","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"slingDraggable2","cameraValue":"","messageId":"1674711415706","commandName":"findObject"}
+response received: {"messageId":"1674711415706","commandName":"findObject","error":null,"data":"{\"name\":\"slingDraggable2\",\"id\":37900,\"x\":323,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":323.099976,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40522,\"transformId\":39822}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//lamp","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"lamp","cameraValue":"","messageId":"1674711415816","commandName":"findObject"}
+response received: {"messageId":"1674711415816","commandName":"findObject","error":null,"data":"{\"name\":\"lamp\",\"id\":37986,\"x\":568,\"y\":1715,\"z\":0,\"mobileY\":685,\"type\":\"\",\"enabled\":true,\"worldX\":568.101563,\"worldY\":1714.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":39908}","isNotification":false}
+command sent: {"start":{"x":323.0,"y":524.0},"end":{"x":568.0,"y":1715.0},"duration":2.0,"wait":true,"messageId":"1674711415923","commandName":"swipe"}
+response received: {"messageId":"1674711415923","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711415923","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//arrowRight","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"arrowRight","cameraValue":"","messageId":"1674711424008","commandName":"findObject"}
+response received: {"messageId":"1674711424008","commandName":"findObject","error":null,"data":"{\"name\":\"arrowRight\",\"id\":38308,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40028,\"transformId\":40224}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"arrowRight","id":38308,"x":1008,"y":1315,"z":0,"mobileY":1085,"type":"","enabled":true,"worldX":1007.60156,"worldY":1315.0,"worldZ":0.0,"idCamera":38874,"transformParentId":40028,"transformId":40224},"messageId":"1674711424118","commandName":"tapElement"}
+response received: {"messageId":"1674711424118","commandName":"tapElement","error":null,"data":"{\"name\":\"arrowRight\",\"id\":38308,\"x\":1008,\"y\":1315,\"z\":0,\"mobileY\":1085,\"type\":\"\",\"enabled\":true,\"worldX\":1007.60156,\"worldY\":1315.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40028,\"transformId\":40224}","isNotification":false}
+response received: {"messageId":"1674711424118","commandName":"tapElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//scissors","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"scissors","cameraValue":"","messageId":"1674711428251","commandName":"findObject"}
+response received: {"messageId":"1674711428251","commandName":"findObject","error":null,"data":"{\"name\":\"scissors\",\"id\":38174,\"x\":710,\"y\":951,\"z\":0,\"mobileY\":1449,\"type\":\"\",\"enabled\":true,\"worldX\":710.101563,\"worldY\":950.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":40092}","isNotification":false}
+command sent: {"count":1,"interval":0.1,"wait":true,"altObject":{"name":"scissors","id":38174,"x":710,"y":951,"z":0,"mobileY":1449,"type":"","enabled":true,"worldX":710.10156,"worldY":950.995,"worldZ":0.0,"idCamera":38874,"transformParentId":40204,"transformId":40092},"messageId":"1674711428359","commandName":"clickElement"}
+response received: {"messageId":"1674711428359","commandName":"clickElement","error":null,"data":"{\"name\":\"scissors\",\"id\":38174,\"x\":710,\"y\":951,\"z\":0,\"mobileY\":1449,\"type\":\"\",\"enabled\":true,\"worldX\":710.101563,\"worldY\":950.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":40092}","isNotification":false}
+response received: {"messageId":"1674711428359","commandName":"clickElement","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//scissorsDraggable","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"scissorsDraggable","cameraValue":"","messageId":"1674711434495","commandName":"findObject"}
+response received: {"messageId":"1674711434495","commandName":"findObject","error":null,"data":"{\"name\":\"scissorsDraggable\",\"id\":38340,\"x\":468,\"y\":524,\"z\":0,\"mobileY\":1876,\"type\":\"\",\"enabled\":true,\"worldX\":467.7,\"worldY\":524.0,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40524,\"transformId\":40256}","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//cableTrig","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"cableTrig","cameraValue":"","messageId":"1674711434604","commandName":"findObject"}
+response received: {"messageId":"1674711434604","commandName":"findObject","error":null,"data":"{\"name\":\"cableTrig\",\"id\":37972,\"x\":591,\"y\":1684,\"z\":0,\"mobileY\":716,\"type\":\"\",\"enabled\":true,\"worldX\":591.101563,\"worldY\":1683.995,\"worldZ\":0.0,\"idCamera\":38874,\"transformParentId\":40204,\"transformId\":39894}","isNotification":false}
+command sent: {"start":{"x":468.0,"y":524.0},"end":{"x":591.0,"y":1684.0},"duration":2.0,"wait":true,"messageId":"1674711434713","commandName":"swipe"}
+response received: {"messageId":"1674711434713","commandName":"swipe","error":null,"data":"\"Ok\"","isNotification":false}
+response received: {"messageId":"1674711434713","commandName":"swipe","error":null,"data":"\"Finished\"","isNotification":false}
+Waiting for element where name contains null....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711448912","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711514843","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711580852","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711647205","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711713257","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711779296","commandName":"findObject"}
+Exception thrown: null
+Waiting for element where name contains //buttonNext....
+command sent: {"by":"NAME","path":"//buttonNext","cameraBy":"NAME","cameraPath":"//","enabled":true,"value":"buttonNext","cameraValue":"","messageId":"1674711845165","commandName":"findObject"}
