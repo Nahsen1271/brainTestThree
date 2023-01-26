@@ -8,6 +8,7 @@ import com.alttester.Commands.InputActions.AltSwipeParams;
 import com.unicoGames.brainTest3.utilities.DriverManager;
 
 public class BasePage {
+
    protected AltDriver altDriver;
 
 

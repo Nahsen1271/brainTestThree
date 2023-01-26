@@ -1,7 +1,7 @@
 
 Feature:
 
-
+  @nahsen
   Scenario: Gamer can play the level one
     * Gamer can open the game and can click skip or can click lets go
     * Gamer click yes please or I am master button
@@ -47,7 +47,7 @@ Feature:
     * Gamer can choose an answer at scene two
     * Gamer can choose an answer at scene three
     * Gamer can pass the level
-  @nahsen
+
   Scenario: Gamer can play the level six
     * Gamer can click the right arrow button
     * Gamer can swipe the box to the door

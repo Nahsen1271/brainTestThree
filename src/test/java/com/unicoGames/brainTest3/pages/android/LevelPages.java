@@ -44,7 +44,7 @@ public class LevelPages extends BasePage {
     public AltObject tapToPlay(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TapToPlay").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
         return altDriver.waitForObject(params);// rock
     }
 
