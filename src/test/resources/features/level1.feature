@@ -1,4 +1,4 @@
-
+@nahsen
 Feature:
 
 
@@ -47,7 +47,7 @@ Feature:
     * Gamer can choose an answer at scene two
     * Gamer can choose an answer at scene three
     * Gamer can pass the level
-  @nahsen
+
   Scenario: Gamer can play the level six
     * Gamer can click the right arrow button
     * Gamer can swipe the box to the door

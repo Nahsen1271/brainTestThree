@@ -114,7 +114,7 @@ public class Hooks {
             String target = System.getProperty("user.dir") + File.separator + "test_output" + File.separator + "ScreenShots_" + scenario.getName() + date + ".png";
             altDriver.getPNGScreenshot(target);
             ReusableMethods.killBrainTest3();
-            Thread.sleep(5000);
+            ReusableMethods.waitForSecond(5);
             ReusableMethods.runBrainTest3();
 
         }
