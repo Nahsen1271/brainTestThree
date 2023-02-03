@@ -15,7 +15,7 @@ import org.testng.annotations.Parameters;
                 "html:target/html-reports/cucumber.html",},
         features = "src/test/resources/features",
         glue = "com/unicoGames/brainTest3/stepDefinitions",
-        tags = "@nahsen",
+        tags = "@addforceClose",
         dryRun = false
 
 

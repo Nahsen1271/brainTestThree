@@ -11,66 +11,66 @@ public class HomePage extends BasePage {
    public void swipeMethod(AltObject APoint,AltObject bPoint){
        altDriver.swipe(new AltSwipeParams.Builder(APoint.getScreenPosition(),bPoint.getScreenPosition()).withDuration(2).build());
    }
-    public AltObject firstSkipButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SkipButton").
+    public AltObject petButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "petsButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject letsGoButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Button").
+    public AltObject petLockedButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/BottomMenu/petsButton/lockedIcon/lockedIcon (1)").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject letsGoButton2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Text4").
+    public AltObject actionButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "actionButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject yesButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "YesButton").
+    public AltObject actionLockedButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/BottomMenu/actionButton/lockedIcon/lockedIcon (1)").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject noButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "NoButton").
+    public AltObject shopButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "shopButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
     }
-    public AltObject tapToPlay(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TapToPlay").
+    public AltObject homeCloseButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "CloseButton").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);// rock
     }
 
-    public AltObject theRock(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "rock").
+    public AltObject homeLevelOne(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/Scroll View/Viewport/Content/levelPositions/p (1)/Map_AllLevels_LevelItem(Clone)").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// rockTrig
+        return altDriver.waitForObject(params);
     }
-    public AltObject theRockTrig(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "rockTrig").
+    public AltObject levelOneTitle(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Title").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// raycastTarget
+        return altDriver.waitForObject(params);
     }
-    public AltObject alxyRaycastTarget(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "raycastTarget").
+    public AltObject levelHomeButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "HomeButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// alyxTrig
+        return altDriver.waitForObject(params);
     }
-    public AltObject alyxTrig(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "alyxTrig").
+    public AltObject homeCoinBg(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "CoinsPanel").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// alyxTrig
+        return altDriver.waitForObject(params);
     }
     public AltObject claim1(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "1").
