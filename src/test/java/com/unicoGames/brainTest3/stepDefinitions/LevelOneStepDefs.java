@@ -20,6 +20,7 @@ public class LevelOneStepDefs {
 
     private static Logger LOG = LogManager.getLogger("LevelOneStepDefs.class");
    LevelPages levelPages = new LevelPages();
+   AllPages allPages = new AllPages();
 
 
     @Given("Gamer can open the game and can click skip or can click lets go")
@@ -30,7 +31,7 @@ public class LevelOneStepDefs {
         if(yesButton) {
             try {
                 ReusableMethods.waitForSecond(3);
-                levelPages.firstSkipButton().click();
+                allPages.levelPages().firstSkipButton().click();
                 ReusableMethods.waitForSecond(3);
                 yesButton=false;
             } catch (Exception skip) {

@@ -1,4 +1,4 @@
-@nahsen
+
 Feature:
 
   @nahsen
@@ -32,6 +32,7 @@ Feature:
     * Gamer wants to miss the chance
     * Gamer wants to skip the spin wheel
 
+    @addforceClose
   Scenario: Gamer can play the level four
     * Gamer can swipe the sling to the frame
     * Gamer can swipe the stone to the frame

@@ -10,6 +10,9 @@ public class AllPages {
 
 
     private LevelPages levelPages;
+    private HomePage homePage;
+    private SettingsPages settingsPages;
+    private ShopPage shopPage;
 
 
 
@@ -18,6 +21,27 @@ public class AllPages {
             levelPages = new LevelPages();
         }
         return levelPages;
+    }
+
+    public HomePage homePage(){
+        if (homePage == null){
+            homePage = new HomePage();
+        }
+        return homePage;
+    }
+
+    public SettingsPages settingsPages(){
+        if (settingsPages == null){
+            settingsPages = new SettingsPages();
+        }
+        return settingsPages;
+    }
+
+    public ShopPage shopPage(){
+        if (shopPage == null){
+            shopPage = new ShopPage();
+        }
+        return shopPage;
     }
 
 }

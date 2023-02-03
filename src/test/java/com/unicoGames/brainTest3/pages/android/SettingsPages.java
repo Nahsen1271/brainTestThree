@@ -11,315 +11,95 @@ public class SettingsPages extends BasePage {
    public void swipeMethod(AltObject APoint,AltObject bPoint){
        altDriver.swipe(new AltSwipeParams.Builder(APoint.getScreenPosition(),bPoint.getScreenPosition()).withDuration(2).build());
    }
-    public AltObject firstSkipButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SkipButton").
+    public AltObject SettingsButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SettingsButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//
-    }
-    public AltObject letsGoButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Button").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//
-    }
-    public AltObject letsGoButton2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Text4").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//
-    }
-    public AltObject yesButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "YesButton").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//
-    }
-    public AltObject noButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "NoButton").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//
-    }
-    public AltObject tapToPlay(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TapToPlay").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);// rock
     }
 
-    public AltObject theRock(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "rock").
+    public AltObject languageCloseButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "CloseButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// rockTrig
+        return altDriver.waitForObject(params);//
     }
-    public AltObject theRockTrig(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "rockTrig").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// raycastTarget
-    }
-    public AltObject alxyRaycastTarget(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "raycastTarget").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// alyxTrig
-    }
-    public AltObject alyxTrig(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "alyxTrig").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// alyxTrig
-    }
-    public AltObject claim1(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "1").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// ClaimButton
-    }
-    public AltObject claimButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ClaimButton").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// buttonNext
-    }
-    public AltObject buttonNext(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "buttonNext").
+    public AltObject soundText(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SoundText").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
-        return altDriver.waitForObject(params);// Image
+        return altDriver.waitForObject(params);
     }
-    public AltObject key(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "key").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// keyDraggable
-    }
-    public AltObject keyDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "keyDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// safe2
-    }
-    public AltObject safe(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "safe").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// safe2// bust
-    }
-    public AltObject bust(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "bust").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// safe2// bust
-    }
-    public AltObject safe2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "safe2").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// arrowRight
-    }
-    public AltObject arrowRight(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "arrowRight").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// arrowRight
-    }
-    public AltObject bustDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "bustDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// bust2
-    }
-    public AltObject bust2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "bust2").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);// bust2
-    }
-    public AltObject claimDay2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "2").
+    public AltObject musicText(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "MusicText").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        return altDriver.waitForObject(params);
     }
-    public AltObject claimButtonDay2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ClaimButton").
+    public AltObject notificationText(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "NotificationText").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        return altDriver.waitForObject(params);
     }
-    public AltObject rateFiveStar(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Star5").
+    public AltObject LanguageTitle(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "LanguageTitle").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);
+
     }
-    public AltObject rateSubmitButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SubmitButton").
+    public AltObject LanguageSelectButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "LanguageSelectButton").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject cake(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "cake").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject trap(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "trap").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject trapDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "trapDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject cakeDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "cakeDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject trapDraggable2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "trapDraggable2").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject trapSnapped(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "trapSnapped").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject door(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "door").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
-        return altDriver.waitForObject(params);//MissThisChance
-    }
-    public AltObject MissThisChance(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "MissThisChance").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(10).build();
-        return altDriver.waitForObject(params);//MissThisChanceSkipButton
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);
     }
 
-    public AltObject skipButton(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SkipButton").
+    public AltObject [] LanguagesText(){
+        AltFindObjectsParams par = new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Text").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(10).build();
-        return altDriver.waitForObject(params);//SkipButton
-    }
-    public AltObject stone(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "stone").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject sling(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "sling").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject stoneDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "stoneDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject slingDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "slingDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject slingDraggable2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "slingDraggable2").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject lamp(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "lamp").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject scissors(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "scissors").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//scissorsDraggable
-    }
-    public AltObject scissorsDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "scissorsDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//scissorsDraggable
-    }
-    public AltObject cableTrig(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "cableTrig").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject aChoice(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "choice0").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject box(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "box").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        return altDriver.findObjects(par);
     }
 
-    public AltObject arrowLeft(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "arrowLeft").
+    public AltObject selectAlanguage(String language){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/CanvasUI/LanguagePanel/Popup/Items/"+language).
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);// /Canvas/TutorialPopUp/Panel/Window/NoButton/Text (TMP) (1)
     }
-    public AltObject handle(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "handle").
+    public AltObject backButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "BackButton").
                 isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject handleDraggable(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "handleDraggable").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject handleSnapped(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "handleSnapped").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject levelSixBtn1(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "btn1").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
-    }
-    public AltObject levelSixBtn2(){
-        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "btn2").
-                isEnabled(true).build();
-        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
-        return altDriver.waitForObject(params);//ClaimButton
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);
     }
 
+    public AltObject twitterButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TwitterButton").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);// TapToPlay
+    }
+
+    public AltObject instagramButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "InstagramButton").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);
+    }
+    public AltObject facebookButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "FacebookButton").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);
+    }
+
+    public AltObject settingsTitle(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "Title").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
+        return altDriver.waitForObject(params);
+    }
 
 }
