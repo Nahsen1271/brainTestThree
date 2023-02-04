@@ -15,7 +15,7 @@ import org.testng.annotations.Parameters;
                 "html:target/html-reports/cucumber.html",},
         features = "src/test/resources/features",
         glue = "com/unicoGames/brainTest3/stepDefinitions",
-        tags = "@addforceClose",
+        tags = "@nahsen",
         dryRun = false
 
 
@@ -31,10 +31,10 @@ public class RunnersBT3 extends AbstractTestNGCucumberTests {
        // System.out.println(GlobalParams.getActiveOffers());
         if (driverType.equals("altDriver")) {
             //ReusableMethods.installAndRunZulaMobile();
-            new DriverManager().initializeDriver(platformName, driverType);
-        } else {
-            new ServerManager().startServer();
-            new DriverManager().initializeDriver(platformName, driverType);
-        }
+           new DriverManager().initializeDriver(platformName, driverType);
+      } else {
+          new ServerManager().startServer();
+          new DriverManager().initializeDriver(platformName, driverType);
+       }
     }
 }

@@ -168,6 +168,7 @@ public class LevelPages extends BasePage {
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(5).build();
         return altDriver.waitForObject(params);//ClaimButton
     }
+
     public AltObject trap(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "trap").
                 isEnabled(true).build();
@@ -320,6 +321,43 @@ public class LevelPages extends BasePage {
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(15).build();
         return altDriver.waitForObject(params);//ClaimButton
     }
+    public AltObject block(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "block").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+    public AltObject ball(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ball").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+    public AltObject levelEightTitle(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "HomeButton").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+    public AltObject ballPosOne(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ballPos1").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+    public AltObject ballPosTwo(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ballPos2").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+    public AltObject ballPosThree(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ballPos3").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//ClaimButton
+    }
+
 
 
 }

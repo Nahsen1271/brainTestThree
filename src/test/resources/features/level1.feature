@@ -1,7 +1,6 @@
 
 Feature:
 
-  @nahsen
   Scenario: Gamer can play the level one
     * Gamer can open the game and can click skip or can click lets go
     * Gamer click yes please or I am master button
@@ -56,5 +55,14 @@ Feature:
     * Gamer can swipe the handle to the handle snapped
     * Gamer can tap the first button two times
     * Gamer can tap the second button two times
+    * Gamer can click the right arrow button
+    * Gamer can pass the level
+
+  @nahsen
+  Scenario: Gamer can play the level eight
+    * Gamer can swipe the block aside
+    * Gamer can swipe the ball to the ballPasOne
+    * Gamer can swipe the ballPasOne to the ballPasTwo
+    * Gamer can swipe the ballPasTwo to the ballPasThree
     * Gamer can click the right arrow button
     * Gamer can pass the level

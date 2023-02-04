@@ -317,4 +317,31 @@ public class LevelOneStepDefs {
 
     }
 
+    @Given("Gamer can swipe the block aside")
+    public void gamer_can_swipe_the_block_aside() {
+
+        ReusableMethods.waitForSecond(1);
+        allPages.levelPages().swipeMethod(allPages.levelPages().block(),allPages.levelPages().levelEightTitle());
+        ReusableMethods.waitForSecond(3);
+    }
+    @Given("Gamer can swipe the ball to the ballPasOne")
+    public void gamer_can_swipe_the_ball_to_the_ball_pas_one() {
+        ReusableMethods.waitForSecond(1);
+        allPages.levelPages().swipeMethod(allPages.levelPages().ball(),allPages.levelPages().ballPosOne());
+        ReusableMethods.waitForSecond(3);
+
+    }
+    @Given("Gamer can swipe the ballPasOne to the ballPasTwo")
+    public void gamer_can_swipe_the_ball_pas_one_to_the_ball_pas_two() {
+        ReusableMethods.waitForSecond(1);
+        allPages.levelPages().swipeMethod(allPages.levelPages().ballPosOne(),allPages.levelPages().ballPosTwo());
+        ReusableMethods.waitForSecond(3);
+    }
+    @Given("Gamer can swipe the ballPasTwo to the ballPasThree")
+    public void gamer_can_swipe_the_ball_pas_two_to_the_ball_pas_three() {
+        ReusableMethods.waitForSecond(1);
+        allPages.levelPages().swipeMethod(allPages.levelPages().ballPosTwo(),allPages.levelPages().ballPosThree());
+        ReusableMethods.waitForSecond(3);
+    }
+
 }

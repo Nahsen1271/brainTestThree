@@ -21,5 +21,12 @@ public class BasePage {
         this.altDriver = driver;
     }
 
+    public AltObject findByName(String name, int timeout, boolean isEnabled){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, name).
+                isEnabled(isEnabled).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(timeout).build();
+        return altDriver.waitForObject(params);
+    }
+
 
 }
