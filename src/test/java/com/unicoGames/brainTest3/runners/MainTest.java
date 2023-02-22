@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import java.net.MalformedURLException;
 
 
 @CucumberOptions(
@@ -24,7 +25,7 @@ import org.testng.annotations.Parameters;
 
         @Parameters({"platformName", "driverType", "marketName", "environment"})
         @BeforeClass
-        public void setUp(@Optional("Android") String platformName, @Optional("altUnity") String driverType, @Optional("googleplay") String marketName, @Optional("DE21D") String environment) {
+        public void setUp(@Optional("Android") String platformName, @Optional("altUnity") String driverType, @Optional("googleplay") String marketName, @Optional("DE21D") String environment) throws MalformedURLException {
             GlobalParams.setMarketName(marketName);
             GlobalParams.setEnvironment(environment);
           //  ReusableMethods.clientLoginRequest();

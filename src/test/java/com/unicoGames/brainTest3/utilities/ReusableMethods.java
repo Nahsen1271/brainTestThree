@@ -31,19 +31,19 @@ public class ReusableMethods //extends CMSBasePage
      * */
     public static void runBrainTest3() throws IOException, InterruptedException {
         ProcessBuilder processBuilder = new ProcessBuilder();
-//        if (GlobalParams.getSystemOS().contains("Windows")){
-//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+        if (GlobalParams.getSystemOS().contains("Windows")){
+            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
                 processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandGooglePlay"));
-//            }else{
-//                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandCafebazaar"));
-//            }
-//        } else{
-//            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-//                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
-//            }else{
-//                processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
-//            }
-//        }
+           }else{
+               processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("runCommandCafebazaar"));
+            }
+       } else{
+           if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
+               processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
+            }else{
+               processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
+           }
+       }
         Process process = processBuilder.start();
         process.waitFor();
     }

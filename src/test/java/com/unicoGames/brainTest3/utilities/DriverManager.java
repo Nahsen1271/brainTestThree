@@ -9,25 +9,28 @@ import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 
 public class DriverManager {
     private static Logger LOG = LogManager.getLogger("DriverManager.class");
     private static ThreadLocal<AltDriver> altDriver = new ThreadLocal<>();
-    private static AppiumDriver appiumDriver;
+    public static AppiumDriver appiumDriver;
 
     public AltDriver getAltDriver() {
         return altDriver.get();
     }
 
 
-    public void initializeDriver(String platformName,String driverType){
+    public void initializeDriver(String platformName,String driverType) throws MalformedURLException {
         AltDriver altDriver = null;
 
-        if(appiumDriver==null && driverType.equals("appiumAndAltUnity")) {
+        if(appiumDriver==null && driverType.equals("appiumAndAltDriver")) {
             LOG.info("Initializing appium & altDriver");
             switch (platformName){
                 case "Android":
-                //    appiumDriver = new AndroidDriver<MobileElement>(new ServerManager().getServer().getUrl(),new CapabilitiesManager().getCaps(platformName));
+                    appiumDriver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"),new CapabilitiesManager().getCaps(platformName));
                     AltPortForwarding.forwardAndroid();
                     altDriver = new AltDriver();
                     break;
@@ -41,7 +44,7 @@ public class DriverManager {
             switch (platformName){
                 case "Android":
                     AltPortForwarding.forwardAndroid();
-                    altDriver = new AltDriver("127.0.0.1",13000,true);
+                    altDriver = new AltDriver();
                     break;
                 case "iOS":
             }

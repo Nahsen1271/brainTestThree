@@ -10,6 +10,9 @@ import io.cucumber.java.en.Given;
 import jdk.jfr.events.ExceptionThrownEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.DeviceRotation;
+import org.openqa.selenium.ScreenOrientation;
 
 import java.io.IOException;
 
@@ -27,6 +30,8 @@ public class LevelOneStepDefs {
     public void gamer_can_open_the_game_and_can_click_skip_or_can_click_lets_go() throws IOException, InterruptedException {
      //   ReusableMethods.runBrainTest3();
         ReusableMethods.waitForSecond(7);
+//        appiumDriver.rotate(ScreenOrientation.LANDSCAPE);
+//        appiumDriver.rotate(ScreenOrientation.valueOf("landscape"));
         boolean yesButton = true;
         if(yesButton) {
             try {
@@ -34,7 +39,7 @@ public class LevelOneStepDefs {
                 allPages.levelPages().firstSkipButton().click();
                 ReusableMethods.waitForSecond(3);
                 yesButton=false;
-            } catch (Exception skip) {
+            }catch (Exception skip) {
                 System.out.println("There is no skip button");
             }
         }
@@ -82,6 +87,8 @@ public class LevelOneStepDefs {
         ReusableMethods.waitForSecond(3);
         levelPages.swipeMethod(levelPages.theRock(),levelPages.theRockTrig());
         ReusableMethods.waitForSecond(3);
+
+
     }
     @Given("Gamer can swipe Alxy to left to drum can")
     public void gamer_can_swipe_alxy_to_left_to_drum_can() {
@@ -91,19 +98,25 @@ public class LevelOneStepDefs {
 
     @Given("Gamer can claim the daily reward")
     public void gamer_can_claim_the_daily_reward() {
-        try {
-            ReusableMethods.waitForSecond(3);
-            levelPages.claim1().click();
-            ReusableMethods.waitForSecond(5);
-        }catch (Exception claim1){
-            System.out.println("There is no claim page");
+        boolean claimPage = true;
+        if (claimPage) {
+            try {
+                ReusableMethods.waitForSecond(3);
+                levelPages.claim1().click();
+                ReusableMethods.waitForSecond(5);
+                claimPage = false;
+            } catch (Exception claim1) {
+                System.out.println("There is no claim page");
+            }
         }
-        try {
-            ReusableMethods.waitForSecond(3);
-            levelPages.claimButton().click();
-            ReusableMethods.waitForSecond(5);
-        }catch (Exception claimButton){
-            System.out.println("There is no claimPage button");
+        if (!claimPage) {
+            try {
+                ReusableMethods.waitForSecond(3);
+                levelPages.claimButton().click();
+                ReusableMethods.waitForSecond(5);
+            } catch (Exception claimButton) {
+                System.out.println("There is no claimPage button");
+            }
         }
     }
     @Given("Gamer can pass the level")
@@ -111,6 +124,16 @@ public class LevelOneStepDefs {
         ReusableMethods.waitForSecond(9);
         levelPages.buttonNext().click();
         ReusableMethods.waitForSecond(5);
+    }
+    @Given("Gamer can pass the ad")
+    public void gamer_can_pass_the_ad()  {
+        ReusableMethods.waitForSecond(50);
+        try {
+            appiumDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View")).click();
+        }catch (Exception ads){
+            System.out.println("There is no ads");
+        }
+
     }
 
     // LEVEL TWO
@@ -327,6 +350,7 @@ public class LevelOneStepDefs {
     @Given("Gamer can swipe the ball to the ballPasOne")
     public void gamer_can_swipe_the_ball_to_the_ball_pas_one() {
         ReusableMethods.waitForSecond(1);
+        appiumDriver.rotate(ScreenOrientation.LANDSCAPE);
         allPages.levelPages().swipeMethod(allPages.levelPages().ball(),allPages.levelPages().ballPosOne());
         ReusableMethods.waitForSecond(3);
 
