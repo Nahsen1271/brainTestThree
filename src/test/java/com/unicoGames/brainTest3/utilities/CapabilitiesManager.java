@@ -18,7 +18,7 @@ public class CapabilitiesManager {
                 case "Android":
                     desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
                     desiredCapabilities.setCapability(MobileCapabilityType.VERSION,"11.0");
-                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Pixel_2_BT3");
+                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"ZY22G8RFZ4");
                     desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
                     desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,1000000);
                     //to specfiy app for testing

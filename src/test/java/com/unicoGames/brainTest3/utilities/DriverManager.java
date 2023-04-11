@@ -30,7 +30,7 @@ public class DriverManager {
             LOG.info("Initializing appium & altDriver");
             switch (platformName){
                 case "Android":
-                    appiumDriver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"),new CapabilitiesManager().getCaps(platformName));
+                    appiumDriver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),new CapabilitiesManager().getCaps(platformName));
                     AltPortForwarding.forwardAndroid();
                     altDriver = new AltDriver();
                     break;

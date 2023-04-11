@@ -42,8 +42,22 @@ public class SettingsPages extends BasePage {
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
         return altDriver.waitForObject(params);
     }
-    public AltObject LanguageTitle(){
+    public AltObject LanguageText(){
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "LanguageTitle").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);
+
+    }
+    public AltObject tryOurOtherGames(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.PATH, "/Canvas/OtherGames/Text (TMP)").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);
+
+    }
+    public AltObject support(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "SupportButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
         return altDriver.waitForObject(params);
@@ -79,7 +93,7 @@ public class SettingsPages extends BasePage {
         AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TwitterButton").
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
-        return altDriver.waitForObject(params);// TapToPlay
+        return altDriver.waitForObject(params);
     }
 
     public AltObject instagramButton(){
@@ -100,6 +114,85 @@ public class SettingsPages extends BasePage {
                 isEnabled(true).build();
         AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(50).build();
         return altDriver.waitForObject(params);
+    }
+    public AltObject PrivacyPolicy(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "PrivacyPolicy").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);// ShareButton
+
+    }
+    public AltObject ShareButton(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "ShareButton").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);// OtherGames
+
+    }
+
+    public AltObject otherGames(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "OtherGames").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);// OtherGames
+
+    }
+
+    public AltObject TermsOfUse(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TermsOfUse").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  /Canvas/OtherGamesScroll/Viewport/Content/BrainTest/PlayNow
+
+    }
+    public AltObject firstGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "BrainTest").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  
+
+    }
+    public AltObject secondGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "WhoIs").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  
+
+    }
+    public AltObject thirdGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "BT2").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  
+
+    }
+    public AltObject fourthGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "LifeCoices").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  
+
+    }
+    public AltObject fifthGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "WordPearls").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//  
+
+    }
+    public AltObject sixthGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "TrickyWords").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//
+
+    }
+    public AltObject seventhGame(){
+        AltFindObjectsParams par=new AltFindObjectsParams.Builder(AltDriver.By.NAME, "WordVoyage").
+                isEnabled(true).build();
+        AltWaitForObjectsParams params = new AltWaitForObjectsParams.Builder(par).withTimeout(9).build();
+        return altDriver.waitForObject(params);//
+
     }
 
 }

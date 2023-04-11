@@ -39,9 +39,9 @@ public class ReusableMethods //extends CMSBasePage
             }
        } else{
            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-               processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
+               processBuilder.command("zsh", "-c", ConfigReader.getProperty("runCommandGooglePlay"));
             }else{
-               processBuilder.command("bash", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
+               processBuilder.command("zsh", "-c", ConfigReader.getProperty("runCommandCafebazaar"));
            }
        }
         Process process = processBuilder.start();
@@ -91,19 +91,19 @@ public class ReusableMethods //extends CMSBasePage
         ProcessBuilder processBuilder = new ProcessBuilder();
 //        if(GlobalParams.getSystemOS().contains("Windows")){
 //            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandGooglePlay"));
+              //  processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandGooglePlay"));
 //            }else{
 //                processBuilder.command("cmd.exe","/c", ConfigReader.getProperty("killCommandCafebazaar"));
 //            }
 //        }else{
 //            if(GlobalParams.getMarketName().equalsIgnoreCase("googleplay")){
-//                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandGooglePlay"));
+                processBuilder.command("zsh","-c", ConfigReader.getProperty("killCommandGooglePlay"));
 //            }else{
 //                processBuilder.command("bash","-c", ConfigReader.getProperty("killCommandCafebazaar"));
 //            }
 //        }
-        Process process = processBuilder.start();
-        process.waitFor();
+       Process process = processBuilder.start();
+       process.waitFor();
     }
 
 //    /**

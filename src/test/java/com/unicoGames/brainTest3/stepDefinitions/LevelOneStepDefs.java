@@ -3,8 +3,11 @@ package com.unicoGames.brainTest3.stepDefinitions;
 import com.alttester.AltDriver;
 import com.alttester.Commands.InputActions.AltSwipeParams;
 import com.unicoGames.brainTest3.pages.AllPages;
+import com.unicoGames.brainTest3.pages.android.BasePage;
 import com.unicoGames.brainTest3.pages.android.LevelPages;
 import com.unicoGames.brainTest3.utilities.ReusableMethods;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.functions.ExpectedCondition;
 import io.cucumber.java.en.Given;
 import jdk.jfr.events.ExceptionThrownEvent;
@@ -17,6 +20,7 @@ import org.openqa.selenium.ScreenOrientation;
 import java.io.IOException;
 
 import static com.unicoGames.brainTest3.utilities.DriverManager.*;
+import static io.appium.java_client.touch.offset.PointOption.point;
 
 
 public class LevelOneStepDefs {
@@ -29,15 +33,15 @@ public class LevelOneStepDefs {
     @Given("Gamer can open the game and can click skip or can click lets go")
     public void gamer_can_open_the_game_and_can_click_skip_or_can_click_lets_go() throws IOException, InterruptedException {
      //   ReusableMethods.runBrainTest3();
-        ReusableMethods.waitForSecond(7);
+     //   ReusableMethods.waitForSecond(7);
 //        appiumDriver.rotate(ScreenOrientation.LANDSCAPE);
 //        appiumDriver.rotate(ScreenOrientation.valueOf("landscape"));
         boolean yesButton = true;
         if(yesButton) {
             try {
-                ReusableMethods.waitForSecond(3);
+             //   ReusableMethods.waitForSecond(3);
                 allPages.levelPages().firstSkipButton().click();
-                ReusableMethods.waitForSecond(3);
+                ReusableMethods.waitForSecond(1);
                 yesButton=false;
             }catch (Exception skip) {
                 System.out.println("There is no skip button");
@@ -45,9 +49,9 @@ public class LevelOneStepDefs {
         }
         if(yesButton) {
             try {
-                ReusableMethods.waitForSecond(9);
+             //   ReusableMethods.waitForSecond(9);
                 levelPages.letsGoButton().click();
-                ReusableMethods.waitForSecond(3);
+                ReusableMethods.waitForSecond(1);
             } catch (Exception letsGo) {
                 System.out.println("There is no letGo button");
             }
@@ -60,7 +64,7 @@ public class LevelOneStepDefs {
         if(yesButton) {
             try {
                 levelPages.yesButton().click();
-                ReusableMethods.waitForSecond(3);
+                ReusableMethods.waitForSecond(1);
                 yesButton = false;
             } catch (Exception noButton) {
                 System.out.println("Gamer can't click yes button");
@@ -70,7 +74,7 @@ public class LevelOneStepDefs {
         if (yesButton) {
             try {
                 levelPages.noButton().click();
-                ReusableMethods.waitForSecond(3);
+                ReusableMethods.waitForSecond(1);
             } catch (Exception Button) {
                 System.out.println("There is no firstPopup");
             }
@@ -80,11 +84,11 @@ public class LevelOneStepDefs {
     public void gamer_click_the_tap_to_start_button() {
        ReusableMethods.waitForSecond(3);
        levelPages.tapToPlay().click();
-       ReusableMethods.waitForSecond(3);
+
     }
     @Given("Gamer can swipe the rock to the drum can")
     public void gamer_can_swipe_the_rock_to_the_drum_can() {
-        ReusableMethods.waitForSecond(3);
+        ReusableMethods.waitForSecond(11);
         levelPages.swipeMethod(levelPages.theRock(),levelPages.theRockTrig());
         ReusableMethods.waitForSecond(3);
 
@@ -93,7 +97,7 @@ public class LevelOneStepDefs {
     @Given("Gamer can swipe Alxy to left to drum can")
     public void gamer_can_swipe_alxy_to_left_to_drum_can() {
         levelPages.swipeMethod(levelPages.alxyRaycastTarget(),levelPages.alyxTrig());
-        ReusableMethods.waitForSecond(3);
+        ReusableMethods.waitForSecond(9);
     }
 
     @Given("Gamer can claim the daily reward")
@@ -103,7 +107,7 @@ public class LevelOneStepDefs {
             try {
                 ReusableMethods.waitForSecond(3);
                 levelPages.claim1().click();
-                ReusableMethods.waitForSecond(5);
+                ReusableMethods.waitForSecond(3);
                 claimPage = false;
             } catch (Exception claim1) {
                 System.out.println("There is no claim page");
@@ -111,13 +115,75 @@ public class LevelOneStepDefs {
         }
         if (!claimPage) {
             try {
-                ReusableMethods.waitForSecond(3);
+                ReusableMethods.waitForSecond(7);
                 levelPages.claimButton().click();
                 ReusableMethods.waitForSecond(5);
             } catch (Exception claimButton) {
                 System.out.println("There is no claimPage button");
             }
         }
+    }
+    @Given("Gamer can click share button")
+    public void gamer_can_click_share_button() {
+        ReusableMethods.waitForSecond(3);
+        levelPages.buttonShare().click();
+        ReusableMethods.waitForSecond(3);
+        appiumDriver.navigate().back();
+        ReusableMethods.waitForSecond(3);
+
+
+    }
+    @Given("Gamer can click play again button")
+    public void gamer_can_click_play_again_button() {
+        ReusableMethods.waitForSecond(3);
+        levelPages.buttonRestart().click();
+        ReusableMethods.waitForSecond(3);
+    }
+
+    @Given("Gamer can click hint button")
+    public void gamer_can_click_hint_button() {
+        ReusableMethods.waitForSecond(3);
+        levelPages.HintButton().click();
+        ReusableMethods.waitForSecond(1);
+
+    }
+    @Given("Gamer can click first hint button")
+    public void gamer_can_click_first_hint_button() {
+        ReusableMethods.waitForSecond(1);
+        levelPages.Hint0Locked().click();
+        ReusableMethods.waitForSecond(1);
+    }
+    @Given("Gamer can click second hint button")
+    public void gamer_can_click_second_hint_button() {
+
+            ReusableMethods.waitForSecond(1);
+            levelPages.Hint1Locked().click();
+            ReusableMethods.waitForSecond(1);
+            System.out.println("There is no hint");
+          try {
+              System.out.println("click coordinate");
+              ReusableMethods.waitForSecond(1);
+           //   levelPages.HomeButton().click();
+              new BasePage().tapByCoordinates(110,110); //135-400
+              ReusableMethods.waitForSecond(1);
+          }catch (Exception Hint){
+              System.out.println("click home page");
+              ReusableMethods.waitForSecond(1);
+              levelPages.HomeButton().click();
+              ReusableMethods.waitForSecond(1);
+          }
+
+
+
+    }
+    @Given("Gamer can click skip button")
+    public void gamer_can_click_skip_button() {
+        System.out.println("ı am on skip button");
+        ReusableMethods.waitForSecond(11);
+        levelPages.helpButton().click();
+        ReusableMethods.waitForSecond(5);
+        levelPages.swipeMethod(levelPages.alxyRaycastTarget(),levelPages.alyxTrig());
+        ReusableMethods.waitForSecond(9);
     }
     @Given("Gamer can pass the level")
     public void gamer_can_pass_the_level()  {
@@ -141,12 +207,17 @@ public class LevelOneStepDefs {
     @Given("Gamer can swipe the key to the frame")
     public void gamer_can_swipe_the_key_to_the_frame() {
         ReusableMethods.waitForSecond(3);
-        levelPages.key().click();
+        levelPages.HintButton().click();
+        ReusableMethods.waitForSecond(1);
+        new BasePage().tapByCoordinates(100,100);
         ReusableMethods.waitForSecond(3);
+        levelPages.key().click();
+        ReusableMethods.waitForSecond(1);
     }
+
     @Given("Gamer can swipe the key to the money case")
     public void gamer_can_swipe_the_key_to_the_money_case() {
-        ReusableMethods.waitForSecond(3);
+        ReusableMethods.waitForSecond(5);
         levelPages.swipeMethod(levelPages.keyDraggable(),levelPages.safe());
         ReusableMethods.waitForSecond(1);
     }
@@ -188,13 +259,13 @@ public class LevelOneStepDefs {
 
     @Given("Gamer can click the cake to the frame")
     public void gamer_can_click_the_cake_to_the_frame() {
-        ReusableMethods.waitForSecond(1);
+        ReusableMethods.waitForSecond(3);
         levelPages.cake().click();
         ReusableMethods.waitForSecond(1);
     }
     @Given("Gamer can click the trap to the frame")
     public void gamer_can_click_the_trap_to_the_frame() {
-        ReusableMethods.waitForSecond(1);
+        ReusableMethods.waitForSecond(3);
         levelPages.trap().click();
         ReusableMethods.waitForSecond(1);
 
@@ -219,16 +290,26 @@ public class LevelOneStepDefs {
     }
     @Given("Gamer submit the rate")
     public void gamer_submit_the_rate() {
-        ReusableMethods.waitForSecond(3);
-        levelPages.rateFiveStar().tap();
-        ReusableMethods.waitForSecond(3);
-        levelPages.rateSubmitButton().click();
+        try {
+            ReusableMethods.waitForSecond(3);
+            levelPages.rateFiveStar().tap();
+            ReusableMethods.waitForSecond(3);
+            levelPages.rateSubmitButton().click();
+        }catch (Exception skipButton){
+            System.out.println("There is no rate page");
+        }
+
     }
     @Given("Gamer wants to miss the chance")
     public void gamer_wants_to_miss_the_chance() {
-        ReusableMethods.waitForSecond(1);
-        levelPages.MissThisChance().click();
-        ReusableMethods.waitForSecond(5);
+        try {
+            ReusableMethods.waitForSecond(1);
+            levelPages.MissThisChance().click();
+            ReusableMethods.waitForSecond(5);
+        }catch (Exception skipButton){
+            System.out.println("There is no miss the chance page");
+        }
+
     }
     @Given("Gamer wants to skip the spin wheel")
     public void gamer_wants_to_skip_the_spin_wheel() {

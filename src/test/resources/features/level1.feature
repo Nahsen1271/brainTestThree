@@ -1,6 +1,7 @@
 
-@nahsen
+
 Feature:
+
 
   Scenario: Gamer can play the level one
     * Gamer can open the game and can click skip or can click lets go
@@ -9,7 +10,17 @@ Feature:
     * Gamer can swipe the rock to the drum can
     * Gamer can swipe Alxy to left to drum can
     * Gamer can claim the daily reward
+    * Gamer can click share button
+    * Gamer can click play again button
+
+
+  Scenario: Gamer can play the level one again
+    * Gamer can click hint button
+    * Gamer can click first hint button
+    * Gamer can click second hint button
+    * Gamer can click skip button
     * Gamer can pass the level
+
 
   Scenario: Gamer can play the level two
     * Gamer can swipe the key to the frame
@@ -18,6 +29,7 @@ Feature:
     * Gamer can click the right arrow button
     * Gamer can swipe the bust to the place
     * Gamer can pass the level
+    * Gamer submit the rate
 
 
   Scenario: Gamer can play the level three
