@@ -39,8 +39,8 @@ public class RunnersBT3 extends AbstractTestNGCucumberTests {
        // System.out.println(GlobalParams.getActiveOffers());
         if (driverType.equals("appiumAndAltDriver")) {
             //ReusableMethods.installAndRunZulaMobile();
-           //ReusableMethods.runBrainTest3();
-//            altDriver    appiumAndAltDriver
+           // ReusableMethods.runBrainTest3();
+          // altDriver    appiumAndAltDriver
             new DriverManager().initializeDriver(platformName, driverType);
       } else {
           new ServerManager().startServer();

@@ -18,12 +18,12 @@ public class CapabilitiesManager {
                 case "Android":
                     desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
                     desiredCapabilities.setCapability(MobileCapabilityType.VERSION,"11.0");
-                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"ZY22G8RFZ4");
+                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Pixel_2_BT");
                     desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
                     desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,1000000);
                     //to specfiy app for testing
                     //it can be on your computer or somewhere in cloud
-                    //  desiredCapabilities.setCapability("app","https://yourserver-appium.s3.amazonaws.com/etsy.apk");
+                    //desiredCapabilities.setCapability("app","https://yourserver-appium.s3.amazonaws.com/etsy.apk");
                     desiredCapabilities.setCapability("appPackage", "com.unicostudio.braintest3");
 
                     // Set your application's MainActivity i.e. the LAUNCHER activity name.

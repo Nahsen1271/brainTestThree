@@ -1,4 +1,4 @@
-@nahsen
+
 Feature: Gamer checks the shop buttons work
 
 
