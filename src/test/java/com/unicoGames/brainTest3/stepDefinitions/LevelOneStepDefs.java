@@ -10,7 +10,6 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.functions.ExpectedCondition;
 import io.cucumber.java.en.Given;
-import jdk.jfr.events.ExceptionThrownEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

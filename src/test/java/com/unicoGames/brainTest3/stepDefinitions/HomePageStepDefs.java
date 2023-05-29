@@ -1,6 +1,5 @@
 package com.unicoGames.brainTest3.stepDefinitions;
 
-import com.sun.org.apache.regexp.internal.RE;
 import com.unicoGames.brainTest3.pages.AllPages;
 import com.unicoGames.brainTest3.pages.android.HomePage;
 import com.unicoGames.brainTest3.pages.android.LevelPages;
